@@ -36,3 +36,12 @@ function endProcess(){
     console.log("Process Ended.");
 }
 startProcess();
+
+// task-6:
+function greetUser(name){
+    console.log(`Hello ${name}!`);
+}
+greetUser("Nikhitha");
+greetUser("Vamshi")
+
+
