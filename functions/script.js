@@ -4,4 +4,11 @@ function sayHello(){
 }
 sayHello();
 
+// task-2:
+function displayWarning(){
+    console.log("Warning! System Overload");
+}
+displayWarning();
+
+
 
