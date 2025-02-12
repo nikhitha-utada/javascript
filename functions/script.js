@@ -10,5 +10,9 @@ function displayWarning(){
 }
 displayWarning();
 
-
+// task-3:
+function printStatus(){
+    console.log("System Status: Active");
+}
+printStatus();
 
