@@ -72,3 +72,12 @@ function checkEvenOdd(num){
 checkEvenOdd(22);
 checkEvenOdd(5);
 
+// task-10:
+function beginSession(){
+    console.log("Session Started.");
+    endSession();
+}
+function endSession(){
+    console.log("Session Ended.");
+}
+beginSession();
