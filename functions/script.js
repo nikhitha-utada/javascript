@@ -51,5 +51,13 @@ function sum(num1,num2){
 sum(2,3)
 sum(7,8)
 
+// task-8:
+function countDown(){
+    for(var i=5;i>0;i--)
+    {
+        console.log(i);
+    }
+}
+countDown();
 
 
