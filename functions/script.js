@@ -44,4 +44,12 @@ function greetUser(name){
 greetUser("Nikhitha");
 greetUser("Vamshi")
 
+// task-7:
+function sum(num1,num2){
+    console.log(num1+num2);
+}
+sum(2,3)
+sum(7,8)
+
+
 
