@@ -27,3 +27,12 @@ function shutDown(){
 }
 initialize();
 
+// task-5:
+function startProcess(){
+    console.log("Process Started.");
+    endProcess();
+}
+function endProcess(){
+    console.log("Process Ended.");
+}
+startProcess();
