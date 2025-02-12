@@ -16,3 +16,14 @@ function printStatus(){
 }
 printStatus();
 
+// task-4:
+
+function initialize(){
+    console.log("Initialization Complete.");
+     shutDown();
+}
+function shutDown(){
+    console.log("System Shutting Down...");
+}
+initialize();
+
