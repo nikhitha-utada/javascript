@@ -33,3 +33,9 @@ function is_positive(num1){
     return num1>0
 }
 console.log(is_positive(-9));
+
+// task-7
+function calculate_average(num1,num2){
+    return (num1+num2)*0.5
+}
+console.log(calculate_average(6,9));
