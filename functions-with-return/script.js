@@ -46,3 +46,8 @@ function get_full_name(first_name,last_name){
 }
 console.log(get_full_name("Nikhitha","Utada"));
 
+// task-9
+function cube(num){
+    return num**3;
+}
+console.log(cube(2));
