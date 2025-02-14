@@ -8,3 +8,4 @@ console.log(calculate_area(20,30));
 function greet(name){
     return "Hello, "+name;
 }
+console.log(greet("Nikhitha"));
