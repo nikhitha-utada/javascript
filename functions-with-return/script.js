@@ -9,3 +9,10 @@ function greet(name){
     return "Hello, "+name;
 }
 console.log(greet("Nikhitha"));
+
+// task-3
+function add_numbers(num1,num2,num3){
+    return num1+num2+num3;
+}
+console.log(add_numbers(1,25,4));
+
