@@ -29,7 +29,7 @@ function convert_celsius_to_fahrenheit(temp){
 console.log(convert_celsius_to_fahrenheit(56));
 
 // task-6
-function is_positive(num){
-    return num>0
+function is_positive(num1){
+    return num1>0
 }
 console.log(is_positive(-9));
