@@ -22,3 +22,8 @@ function mulitply_by_two(num){
 }
 console.log(mulitply_by_two(3));
 
+// task-5
+function convert_celsius_to_fahrenheit(temp){
+    return (9/5)*temp+32;
+}
+console.log(convert_celsius_to_fahrenheit(56));
