@@ -16,3 +16,9 @@ function add_numbers(num1,num2,num3){
 }
 console.log(add_numbers(1,25,4));
 
+// task-4
+function mulitply_by_two(num){
+    return num*2;
+}
+console.log(mulitply_by_two(3));
+
