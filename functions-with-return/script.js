@@ -39,3 +39,10 @@ function calculate_average(num1,num2){
     return (num1+num2)*0.5
 }
 console.log(calculate_average(6,9));
+
+// task-8
+function get_full_name(first_name,last_name){
+    return first_name+" "+last_name;
+}
+console.log(get_full_name("Nikhitha","Utada"));
+
