@@ -40,3 +40,18 @@ else{
     console.log("$5 per day");
 }
 
+// A smart traffic system should display the correct signal based on the traffic light color (Red = "Stop", Yellow = "Slow Down", Green = "Go"). Write a condition to determine the action.  
+
+var colour = "red"
+if(colour=="red"){
+    console.log("Stop");
+}
+else if(colour=="orange"){
+    console.log("slow down");
+}
+else if(colour=="green"){
+    console.log("go");
+}
+else{
+    console.log("invalid");
+}
