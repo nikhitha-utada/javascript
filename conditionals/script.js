@@ -128,4 +128,21 @@ else{
     console.log("wear a tshirt");
 }
 
+// Restaurant Order Discount   
+// - A restaurant offers:  
+// -  10% discount for orders above $100   
+// -  5% discount for orders between $50-$100   
+// -  No discount for orders below $50   
+// - Write a condition to calculate the final bill.  
+
+bill = 100
+if(bill>100){
+    console.log(bill - (bill/10));
+}
+else if(bill>=50 && bill<=100){
+    console.log(bill - (bill/20));
+}
+else{
+    console.log(bill);
+}
 
