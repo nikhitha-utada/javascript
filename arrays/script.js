@@ -10,3 +10,10 @@ console.log(arr[2]);
 // Modify the second element of an array to a new value.
 arr[1] = "new"
 console.log(arr);
+
+// Write a function that returns the length of an array.
+function findLength(arr){
+    return arr.length
+}
+
+console.log(findLength(arr));
