@@ -17,3 +17,9 @@ function findLength(arr){
 }
 
 console.log(findLength(arr));
+
+//  Add a new element to the end of an array
+
+arr.push(6)
+console.log(arr);
+
