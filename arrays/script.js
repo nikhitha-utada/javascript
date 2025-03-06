@@ -26,3 +26,9 @@ console.log(arr);
 // Remove the last element from an array and print the updated array
 arr.pop()
 console.log(arr);
+
+//  Use a loop to print each element of an array
+for(var i=0;i<arr.length;i++){
+    console.log(arr[i]);
+}
+
