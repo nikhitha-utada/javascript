@@ -109,3 +109,23 @@ if(username=="nikhitha" && password=="123456"){
 else{
     console.log("Invalid credentials");
 }
+
+// .  Weather-Based Outfit Suggestion   
+// - A weather app suggests clothing based on temperature:  
+// -  Below 10°C:  "Wear a heavy jacket"  
+// -  10°C to 20°C:  "Wear a light jacket"  
+// -  Above 20°C:  "Wear a t-shirt"  
+// - Write a condition to display the correct suggestion.  
+
+temp = 89
+if(temp<=10){
+    console.log("wear a heavy jacket");
+}
+else if(temp>=10 && temp<=20){
+    console.log("wear a light jacket");
+}
+else{
+    console.log("wear a tshirt");
+}
+
+
