@@ -44,3 +44,8 @@ console.log(diff(9,8));
 // que-7:
 var msg = () => "Hello,world!";
 console.log(msg());
+
+
+var x = () => y()
+var y = () => "javascript"
+console.log(x());
