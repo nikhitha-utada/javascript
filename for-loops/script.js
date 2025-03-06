@@ -39,3 +39,11 @@ for(var i=1;i<=5;i++)
     fact*=i
 }
 console.log(fact);
+
+// Scenario 6: Power of a Number
+// Write a for loop to calculate the power of a number (e.g., 2^5).
+res=1
+for(var i=1;i<=5;i++){
+    res *= 2;
+}
+console.log(res);
