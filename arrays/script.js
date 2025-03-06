@@ -23,3 +23,6 @@ console.log(findLength(arr));
 arr.push(6)
 console.log(arr);
 
+// Remove the last element from an array and print the updated array
+arr.pop()
+console.log(arr);
