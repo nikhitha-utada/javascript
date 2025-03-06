@@ -21,3 +21,12 @@ for(var i=1;i<=10;i++)
 {
     console.log(`7 x ${i} = ${7*i}`);
 }
+
+// Scenario 4: Even Numbers
+// Write a for loop to print all even numbers between 1 and 20.
+
+for(var i=1;i<=20;i++){
+    if(i%2==0){
+        console.log(i);
+    }
+}
