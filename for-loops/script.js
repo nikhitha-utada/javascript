@@ -47,3 +47,12 @@ for(var i=1;i<=5;i++){
     res *= 2;
 }
 console.log(res);
+
+// Scenario 7: Odd Numbers in Reverse
+// Write a for loop to print all odd numbers between 20 and 1 in reverse order.
+
+for(var i=20;i>=1;i--){
+    if(i%2!=0){
+        console.log(i);
+    }
+}
