@@ -13,3 +13,11 @@ for(var i=1;i<=100;i++){
     sum+=i;
 }
 console.log(`sum of 1 to 100 numbers is ${sum}`);
+
+// Scenario 3: Multiplication Table
+// Write a for loop to print the multiplication table of 7 (up to 10).
+
+for(var i=1;i<=10;i++)
+{
+    console.log(`7 x ${i} = ${7*i}`);
+}
