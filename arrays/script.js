@@ -39,4 +39,3 @@ console.log(arr.includes(1));
 // Create a copy of an array and print it
 new_arr = arr
 console.log(new_arr);
-
