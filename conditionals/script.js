@@ -146,3 +146,18 @@ else{
     console.log(bill);
 }
 
+// Online Exam Eligibility   
+// - A student can attempt an online exam  only if :  
+// - They have  registered   
+// - They have  paid the fee   
+// - Write a condition to check if the student can take the exam.  
+
+registered = false
+paid = true
+if(registered && paid){
+    console.log("You can take the exam");
+}
+else{
+    console.log("Sorry you cant take the exam");
+}
+
