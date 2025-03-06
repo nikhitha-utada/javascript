@@ -32,3 +32,6 @@ for(var i=0;i<arr.length;i++){
     console.log(arr[i]);
 }
 
+// Write a function to check if a given value exists in an array.
+
+console.log(arr.includes(1));
