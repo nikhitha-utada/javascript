@@ -6,3 +6,7 @@ console.log(arr);
 
 // Given an array, print the third element.
 console.log(arr[2]);
+
+// Modify the second element of an array to a new value.
+arr[1] = "new"
+console.log(arr);
