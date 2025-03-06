@@ -99,3 +99,13 @@ else if(age>=12 && age<=60){
 else{
     console.log("$7");
 }
+
+// A system checks a username and password. If both match, it logs the user in. If either is incorrect, it shows an error message. Write a condition for this scenario.  
+var username = "nikhitha"
+var password = "123456"
+if(username=="nikhitha" && password=="123456"){
+    console.log("Login successful");
+}
+else{
+    console.log("Invalid credentials");
+}
