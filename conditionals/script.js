@@ -17,3 +17,26 @@ if(purchase_amt>=50){
 else{
     console.log("Shipping cost available");
 }
+
+// Library Late Fee Calculation   
+// - A library charges a fine based on how late a book is returned:  
+// -  1–5 days:  $1 per day  
+// -  6–10 days:  $2 per day  
+// -  More than 10 days:  $5 per day  
+// -  Returned on time:  No fine  
+// - Write a condition to determine the fine amount.  
+
+days = 10
+if(days==0){
+    console.log("No fine");
+}
+else if(days>=1 && days<=5){
+    console.log("$1 per day");
+}
+else if(days>=6 && days<=10){
+    console.log("$2 per day");
+}
+else{
+    console.log("$5 per day");
+}
+
