@@ -30,3 +30,12 @@ for(var i=1;i<=20;i++){
         console.log(i);
     }
 }
+
+// Scenario 5: Factorial Calculation
+// Write a for loop to calculate the factorial of a number (e.g., 5!).
+fact=1
+for(var i=1;i<=5;i++)
+{
+    fact*=i
+}
+console.log(fact);
