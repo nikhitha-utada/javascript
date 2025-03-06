@@ -55,3 +55,29 @@ else if(colour=="green"){
 else{
     console.log("invalid");
 }
+
+// Student Exam Result   
+// - A student’s grade is based on their marks:  
+// -  90+  = A  
+// -  80-89  = B  
+// -  70-79  = C  
+// -  60-69  = D  
+// -  Below 60  = Fail  
+// - Write a condition to determine the student’s grade.  
+
+marks = 89
+if(marks>=90){
+    console.log("A");
+}
+else if(marks>=80 && marks<=90){
+    console.log("B");
+}
+else if(marks>=70 && marks<=79){
+    console.log("C");
+}
+else if(marks>=60 && marks<=69){
+    console.log("D");
+}
+else{
+    console.log(Fail);
+}
