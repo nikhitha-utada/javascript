@@ -35,3 +35,8 @@ for(var i=0;i<arr.length;i++){
 // Write a function to check if a given value exists in an array.
 
 console.log(arr.includes(1));
+
+// Create a copy of an array and print it
+new_arr = arr
+console.log(new_arr);
+
