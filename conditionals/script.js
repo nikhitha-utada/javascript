@@ -79,5 +79,23 @@ else if(marks>=60 && marks<=69){
     console.log("D");
 }
 else{
-    console.log(Fail);
+    console.log("Fail");
+}
+
+// Movie Ticket Pricing   
+// - A movie theater charges:  
+// -  Children (below 12 years):  $5  
+// -  Adults (12 to 60 years):  $10  
+// -  Seniors (above 60 years):  $7  
+// - Write a condition to determine the ticket price based on age.  
+
+age = 89
+if(age<=12){
+    console.log("$5");
+}
+else if(age>=12 && age<=60){
+    console.log("$10");
+}
+else{
+    console.log("$7");
 }
